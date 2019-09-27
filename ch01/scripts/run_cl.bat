@@ -7,6 +7,7 @@ cd build_cl
 
 call "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
 
+cl /P ..\src\hello_world.c ..\src\sum.c
 cl /Fa /Od ..\src\hello_world.c ..\src\sum.c
 
 hello_world.exe
